@@ -9,8 +9,8 @@ module.exports = {
         alias: {
           '@assets': './src/assets',
           '@components': './src/components',
-          '@navigation': './src/navigation',
-          '@redux': './src/redux',
+          '@navigations': './src/navigations',
+          '@reduxApp': './src/reduxApp',
           '@constants': './src/constants',
           '@modules': './src/modules',
           '@scenes': './src/scenes',
