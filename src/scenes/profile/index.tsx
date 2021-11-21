@@ -14,7 +14,7 @@ import CommonStyles from 'styles/common';
 import PopupSetting from 'components/popup';
 import ContainerContentModal from 'components/popup/ContainerContent';
 import PopupItem from 'components/popup/PopupItem';
-// import { Avatar, Banner, Surface } from 'react-native-paper';
+import { Avatar, Banner, Surface } from 'react-native-paper';
 import Images from 'assets/images';
 import { Font } from 'styles/typography';
 import { wait } from 'utils';
@@ -103,11 +103,11 @@ const ProfileScreen = (props: ProfileNavProps<'PROFILE_SCREEN'>) => {
       <View>
         <Row style={{ padding: Size.size16 }}>
           <TouchableOpacity activeOpacity={0.8} onPress={onPressAvatar}>
-            {/* <Avatar.Image
+            <Avatar.Image
               style={{ marginRight: Size.size16, backgroundColor: 'red' }}
               size={Size.size64}
               source={Images.ic_tabar_profile}
-            /> */}
+            />
           </TouchableOpacity>
           <View style={styles.iconAvatar}>
             <MyIcon

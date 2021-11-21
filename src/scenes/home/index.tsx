@@ -38,7 +38,7 @@ const HomeScreen = (props: MainNavProps<'FEED_SCREEN'>) => {
   return (
     <Center style={styles.container}>
       <MyText content="Home" />
-      <MyIcon type="FontAwesome" name="rocket" color="red" />
+      {/* <MyIcon type="FontAwesome" name="rocket" color="red" /> */}
 
       <TouchableOpacity onPress={pressSetting}>
         <MyText content="setting" />
